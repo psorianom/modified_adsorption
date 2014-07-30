@@ -5,7 +5,7 @@ MAD is a graph semi-supervised learning model. As such it uses a small number of
 
 ## Project Setup
 
-Themodule  includes a simple class implementing the MAD algorithm. A graph file is needed, _graph\_file_, and a _seed\_file_, containing the minimum set of initial labeled items. They must be in a tab separated format: NodeA, NodeB, LinkWeight. For example, for the graph_file, it should be like this:
+The module includes a simple class implementing the MAD algorithm. A graph file is needed, _graph\_file_, and a _seed\_file_, containing the minimum set of initial labeled items. They must be in a tab separated format: NodeA, NodeB, LinkWeight. For example, the graph_file should be like this:
 
     N1	N2	0.18
 
